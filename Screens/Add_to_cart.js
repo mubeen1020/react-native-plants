@@ -4,7 +4,6 @@ import { View, Text, StyleSheet, TouchableOpacity, FlatList,Image, ScrollView } 
 import { getSecrets } from '../Config/Url';
 
 const AddToCart = ({ navigation, route }) => {
-const { plant } = route.params;
   const [itemCount, setItemCount] = useState(0);
   const [name1,setName1]=useState("Alo vera")
   const [price1,setPrice1]=useState( 210)

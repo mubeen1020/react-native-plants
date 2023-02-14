@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
-const ThankYouScreen = () => {
-
+const ThankYouScreen = ({navigation}) => {
+useEffect(()=>{
+  setTimeout(()=>{
+navigation.navigate("Add-to-Cart")
+  },2000)
+},[])
     const get_id=()=>{}
   return (
     <View style={styles.container}>
       <Image 
-        source={require('../assets/Images/plant3.webp')}
+        source={require('../assets/Images/plant90.webp')}
         style={styles.image}
       />
       <Text style={{color:"pink"}}>order id : #0099ff</Text>

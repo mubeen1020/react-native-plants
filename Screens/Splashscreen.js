@@ -24,7 +24,7 @@ function SplashScreen({navigation}) {
           
             <View style={{alignItems:'center',position:'relative',top:100}}>
               <Image
-                source={require('../assets/Images/plant3.webp')}
+                source={require('../assets/Images/plant90.webp')}
                 style={{width: 370, resizeMode: 'contain'}}
               />
             </View>

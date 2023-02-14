@@ -14,6 +14,7 @@ import ThankYouScreen from '../Screens/Thankyou';
 import PlantInstructions from '../Screens/Plant_intruction';
 import TabBar from './Top_Tab';
 import PlantShopBranches from '../Screens/Branche';
+import TabViewTop from './Tab_View';
 
 const Stack = createNativeStackNavigator();
 function AppRouter() {
@@ -33,6 +34,7 @@ function AppRouter() {
         <Stack.Screen name="Instruction" options={{headerShown:false}}  component={PlantInstructions} />
         <Stack.Screen name="Tab-Bar" options={{headerShown:false}}  component={TabBar} />
         <Stack.Screen name="Shop" options={{headerShown:false}}  component={PlantShopBranches} />
+        <Stack.Screen name="TabView" options={{headerShown:false}}  component={TabViewTop} />
         </Stack.Navigator>
         </NavigationContainer>
   );
